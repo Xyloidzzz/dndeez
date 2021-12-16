@@ -1,0 +1,22 @@
+{
+  "_id": {
+    "$oid": "61bbc5f20d456eb0c92e3d36"
+  },
+  "races": {
+    "test-race": {
+      "_id": 1,
+      "tags": ["test", "wisdom", "charisma", "telepathy"],
+      "title": "Test Race",
+      "description": "This is a small paragraph describing the race. It should be longer than this.",
+      "featureTitles": ["Age", "Alignment", "Size", "Speed", "Something"],
+      "featureDescriptions": ["This describes Age.", "This describes Alignment.", "This describes Size.", "This describes Speed.", "This describes Something."],
+      "subraces": ["Subrace1", "Subrace2", "Subrace3"],
+      "subrace1": {
+        "title": "Test SubRace",
+        "description": "This is a small paragraph describing the race. It should be longer than this.",
+        "featureTitles": ["Something1", "Something2", "Something3"],
+        "featureDescriptions": ["This describes Something1.", "This describes Something2.", "This describes Something3."]
+      }
+    }
+  }
+}
